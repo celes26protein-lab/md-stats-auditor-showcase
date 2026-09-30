@@ -9,15 +9,6 @@ samples), the corrected replica-level statistics, effect sizes, and a
 publication-style black-and-white bar chart with significance stars —
 for two groups or more, one metric or several at once.
 
-## Why
-
-MD trajectories generate thousands of correlated frames per run. Running
-a t-test (or ANOVA) on frames directly, instead of on independent
-replicate means, routinely produces absurdly small p-values that don't
-hold up to scrutiny. This tool exists to catch that mistake
-automatically, alongside your existing MD analysis tools — it audits
-results, it doesn't replace `gmx rms` / `gmx sasa` / etc.
-
 ## Features
 
 - **Pseudoreplication check**: flags when the naive frame-level p-value
