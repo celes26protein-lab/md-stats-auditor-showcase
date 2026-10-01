@@ -1,6 +1,6 @@
 # 🧪 MD Stats Auditor
 
-**🔗 Try it: [md-stats-auditor-celes.streamlit.app](https://md-stats-auditor-celes.streamlit.app/)**
+**🔗 Try it: [https://md-stats-auditor-celes.streamlit.app/)**
 
 A statistics sanity-checker for molecular dynamics (MD) trajectory data.
 Upload GROMACS-style `.xvg` files and get: a check for the classic
